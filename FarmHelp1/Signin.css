@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    border: 5px solid #fff;
+    border-bottom: 5px;
+    padding-top: 40px;
+}
+input[type=text],input[type=email],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 50px;
+  }
+  button {
+    background-color: #10e61fc7;
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  button a:hover {
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+  }
+  #cancelbtn{
+    
+    width: 100%;
+    border-radius: 2.5px;
+    padding: 4px 3px;
+    background-color: #f44336;
+    text-align: center;
+    height: 50px;
+    border-radius: 3px;
+  }
+  #cancelbtn:hover{
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+  }
+  .axoms{
+    text-decoration: none;
+    color: blue;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }

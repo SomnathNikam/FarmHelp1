@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #00FF00;
+    color: #fff;
+    height: 80px;
+}
+.header-Logo{
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-weight: bolder;
+    border: 2px solid #fff;
+}
+.header-lists li{
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    padding-top: 28px;
+    list-style: none;
+    cursor:pointer;
+    display: flex;
+    border: 2px solid #fff;
+    transition: 0.1s  ease-out;
+    text-decoration: none;
+    
+}
+.header-lists li:hover{
+    opacity: 0.9;
+    color: blue;
+    cursor: pointer;
+    
+}
+.header-lists ul li:hover{
+    opacity: 0.9;
+    color: blue;
+    cursor: pointer;
+    border-top: 2px solid #ff6347;
+    
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main{
+    
+    
+    background-image: url(images.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 100px;
+    position: fixed;
+    opacity: 0.9;
+    display: flex;
+    scroll-snap-type: mandatory;
+}
+h3{
+    text-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 170px 130px -25px;
+    font-style: normal;
+    font-weight:100 ;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    display: flex;
+    padding-left:20px;
+    cursor:pointer;
+    flex-direction: left;
+    position: relative;
+    
+    
+}
+h1{
+    color: #fff;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-top: 200px;
+    padding-right: 100px;
+    padding-left: 0px;
+    text-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    right: 70%;
+   
+    
+}
+h3 h1:hover{
+    opacity: 0.9;
+    color: black;
+    cursor: pointer;
+}
+
+.footer{
+    align-items: left;
+    scroll-snap-type: mandatory;
+}

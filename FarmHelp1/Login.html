@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign up</title>
+    
+    <link rel="Stylesheet" href="Login.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-Logo">FarmHelp</div>
+    <div class="header-lists">
+        <ul>
+           <li class="li">
+           <a href="Index.html"> Home</a>
+           </li>
+           <li class="li">
+            <a href="General.html"> General Information</a>
+           </li>
+           <li class="li">
+            <a href="Schemes.html"> Schemes</a>
+           </li>
+           <li class="li">
+            <a href="About.html"> About us</a>
+           </li>
+           <li class="li"><a href="Contact.html"> Contact us</a></li>
+           <li class="li"><a href="Login.html" class="link">Login/Sign up</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="images1.jpeg" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="email" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <span class="psw">Forgot <a href="#" class="hr">password?</a></span>
+      
+          <button type="submit"><a href="Schemes.html">Login</a></button>
+          <label>
+            <input type="checkbox" checked="checked" class="checkbox" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button><br>
+          <p>Don't have any account?<a href="Signin.html"id="axoms">Create new account?</a></p>
+         
+        </div>
+      </form>
+</body>
+</html>

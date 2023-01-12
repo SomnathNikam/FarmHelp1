@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Information</title>
+    <link rel="stylesheet" href="General.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-Logo">FarmHelp</div>
+        <div class="header-lists">
+            <ul>
+               <li class="li">
+               <a href="Index.html"> Home</a>
+               </li>
+               <li class="li">
+                <a href="General.html"> General Information</a>
+               </li>
+               <li class="li">
+                <a href="Schemes.html"> Schemes</a>
+               </li>
+               <li class="li">
+                <a href="About.html"> About us</a>
+               </li>
+               <li class="li"><a href="Contact.html"> Contact us</a></li>
+               <li class="li"><a href="Login.html" class="link">Login/Sign up</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="gone">
+            <div class="main">
+            <div class="input-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+                <button class="button">Search</button>
+    
+    
+            </div>
+            <script>
+                const button = document.querySelector(".button");
+                button.addEventListener("mousedown",() => button.classList.add("clicked"));
+                button.addEventListener("mouseup",() => button.classList.remove("clicked"));
+            </script>
+        </div>
+            </div>
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Information</th>
+                        <th>Links</th>
+        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Soil Information</td>
+                        <td><a href="https://agriculture.vic.gov.au/farm-management/soil/what-is-soil" class="culture">https://agriculture.vic.gov.au/farm-management/soil/what-is-soil</a></td>
+                    </tr>
+                    <tr class="active-row">
+                        <td>2</td>
+                        <td>Fertilizers Information</td>
+                        <td><a href="https://www.epa.gov/agriculture/agriculture-nutrient-management-and-fertilizer"class="culture">https://www.epa.gov/agriculture/agriculture-nutrient-management-and-fertilizer</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Crops Information</td>
+                        <td><a href="https://www.fao.org/land-water/databases-and-software/crop-information/en/" class="culture">https://www.fao.org/land-water/databases-and-software/crop-information/en/</a></td>
+                    </tr>
+                    <tr class="active-row">
+                        <td>4</td>
+                        
+                        <td>Pesticides Information</td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2984095/"class="culture">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2984095/</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                           Land Information 
+        
+                        </td>
+                        <td><a href="https://data.oecd.org/agrland/agricultural-land.htm#:~:text=Agricultural%20land%20is%20defined%20as,gardens%2C%20and%20land%20temporarily%20fallow" class="culture">https://data.oecd.org/agrland/agricultural-land.htm#:~:text=Agricultural%20land%20is%20defined%20as,gardens%2C%20and%20land%20temporarily%20fallow</a></td>
+                    </tr>
+                    
+                </tbody>
+              </table>
+        
+    
+</body>
+</html>
